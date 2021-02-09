@@ -47,3 +47,21 @@
   float: right;
   transform: rotate(130deg);
 }
+
+.roundImage {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.afterImageButton {
+  background-color: #6b8d73;
+  border-radius: 30px;
+  margin-right: 12px;
+  margin-left: 12px;
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  padding-right: 15px;
+  padding-left: 15px;
+
+  font-weight: bold;
+}
