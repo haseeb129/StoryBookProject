@@ -1,7 +1,5 @@
 import React from "react";
 import "./Page3.css";
-import { Form, Button } from "react-bootstrap";
-import image3 from "../images/28e14bac811214045b5a82a171894e78e1ab6496.png";
 // FaArrowsAltH
 import { FaArrowsAltH } from "react-icons/fa";
 

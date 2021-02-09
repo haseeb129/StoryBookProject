@@ -1,9 +1,14 @@
 /* ::-webkit-scrollbar {
   display: none;
 } */
+@font-face {
+  font-family: "pill-gothic";
+  src: url("../Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
+}
 
 .pageSize {
   min-height: 100vh;
+  font-family: "pill-gothic";
 }
 
 .main {
