@@ -1,0 +1,87 @@
+.pageSize {
+  min-height: 100vh;
+}
+
+.main {
+  background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.png");
+  min-height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+}
+
+.ab {
+  font-family: "Pill Gothic 300mg Bold";
+  font-weight: bold;
+}
+.div1 {
+  text-align: center;
+  color: orange;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.div2 {
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #6b8d73;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.div3 {
+  color: white;
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  font-size: 48px;
+  letter-spacing: 0;
+}
+
+.div4 {
+  /* display: flex; */
+  padding-right: 10px;
+  padding-left: 10px;
+  justify-content: center;
+
+  /* align-items: center;
+  text-align: center; */
+  padding-top: 60px;
+  /* padding-bottom: 10px; */
+  background-color: #6b8d73;
+  border-radius: 30px 30px 0 0;
+}
+.innerdiv1 {
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  width: 100%;
+  background-color: #5a7d62;
+  border-radius: 30px 30px;
+}
+
+.innerdiv2 {
+  align-items: center;
+  align-content: center;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  /* padding-right: 50px; */
+  font-size: 16px;
+  width: 100%;
+  background-color: white;
+  border-radius: 30px 30px;
+  margin-bottom: 50px;
+}
+.mutedText {
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+  word-break: break-all;
+}

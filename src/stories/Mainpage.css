@@ -1,0 +1,59 @@
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+.pageSize {
+  min-height: 100vh;
+}
+
+.main {
+  background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/efd31d99578da3e3d070b1038625a273fb769a0c.png");
+  min-height: 50vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+}
+.innerdiv {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+.main2 {
+  background-color: #6b8d73;
+  min-height: 35vh;
+  color: white;
+  text-align: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.input {
+  width: 80%;
+  height: 10%;
+  background-color: white;
+  border-radius: 40px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: "#6b8d73";
+}
+
+.storybook-button {
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  color: white;
+  background-color: black;
+}
