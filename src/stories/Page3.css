@@ -15,6 +15,7 @@
   align-content: center;
   text-align: center;
   align-items: center;
+  margin-bottom: -8px;
 }
 
 .inner3 {
@@ -64,4 +65,30 @@
   padding-left: 15px;
 
   font-weight: bold;
+}
+
+.page3div2 {
+  background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/fe0ac09c80490c55e346aa02c537600dac723d2d.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  color: white;
+  text-align: center;
+  font-family: "pill-gothic";
+}
+
+.page3div2Starting {
+  margin-top: -9px;
+  background-color: #6b8d73;
+  border-radius: 0 0 30px 30px;
+  min-height: 8vh;
+}
+
+.image3div {
+  padding-top: 60px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 10px;
 }
