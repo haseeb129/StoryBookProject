@@ -10,9 +10,11 @@
 
 .main {
   background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.png");
-  min-height: 50vh;
+  min-height: 30vh;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  object-fit: cover;
   text-align: center;
   align-items: center;
 }
@@ -23,7 +25,7 @@
 }
 .div1 {
   text-align: center;
-  color: orange;
+  color: #ef8e48;
   background-color: black;
   padding-top: 20px;
   padding-bottom: 20px;

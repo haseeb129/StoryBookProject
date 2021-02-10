@@ -1,16 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Page6 } from "./Page6";
+import { Page5 } from "./Page5";
 
 export default {
-  title: "Example/Page6",
-  component: Page6,
+  title: "Example/Page5",
+  component: Page5,
   argTypes: {
     backgroundColor: { control: "color" },
   },
 };
 
-const Template = (args) => <Page6 {...args} />;
+const Template = (args) => <Page5 {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {

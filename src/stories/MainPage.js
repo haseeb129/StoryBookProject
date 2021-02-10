@@ -20,11 +20,11 @@ export const MainPage = () => (
 
       <p style={{ marginTop: "0px" }}>products & special offers!</p>
 
-      <Form.Control className="input" placeholder="Enter your email" />
+      <input className="input" placeholder="Enter your email" type="text" />
 
-      <Button className="storybook-button" variant="primary">
+      <button className="storybook-button" variant="primary">
         SIGN UP!
-      </Button>
+      </button>
     </div>
   </div>
 );
