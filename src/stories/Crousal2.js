@@ -9,10 +9,16 @@ import image5 from "../images/Capture5.png";
 import image1 from "../images/image1.png";
 import image2 from "../images/page 1.png";
 import image7 from "../images/Capture7.png";
+import { TiTickOutline } from "react-icons/ti";
 
 export const Crousal2 = () => (
-  <Carousel className="fontclass" showArrows={false} infiniteLoop={true}>
-    <div className="mainCrousal crousal2page1">
+  <Carousel
+    className="fontclass"
+    showArrows={false}
+    infiniteLoop={true}
+    showThumbs={false}
+  >
+    <div className="mainCrousal2  crousal2page1">
       <div className="textDiv1">
         <p style={{ marginTop: "10px" }}>
           Our Clary Sage comes from a small farm utilizing biodynamic techniques
@@ -24,8 +30,8 @@ export const Crousal2 = () => (
       </div>
     </div>
 
-    <div className="mainCrousal crousal2page2">
-      <div className="textDiv1" style={{ marginTop: "80%" }}>
+    <div className="mainCrousal2  crousal2page2">
+      <div className="textDiv1" style={{ marginTop: "40%" }}>
         <p style={{ marginTop: "10px" }}>
           The farm is integrated between wild forests and two major mountains,
           The Balkans and Sredna Gora. Protecting these pristine areas for
@@ -36,8 +42,8 @@ export const Crousal2 = () => (
         </p>
       </div>
     </div>
-    <div className="mainCrousal crousal2page3">
-      <div className="textDiv1">
+    <div className="mainCrousal2 crousal2page3">
+      <div className="textDiv1" style={{ marginTop: "60%" }}>
         <p style={{ marginTop: "10px" }}>
           Their Clary Sage production begin with hand sowing seeds in Spring.
           The Clary Sage plant takes two years of growth before it can be
@@ -47,16 +53,95 @@ export const Crousal2 = () => (
       </div>
     </div>
 
-    <div className="mainCrousal2 crousal2page4">
-      <div className="inside">
-        <div className="insideDivText">
-          <p>
-            Their Clary Sage production begin with hand sowing seeds in Spring.
-            The Clary Sage plant takes two years of growth before it can be
-            harvested for distillation. The flower heads are cultivated by a
-            rounded hand machete, a tool typical for Bulgaria.
-          </p>
+    <div className="mainCrousal2  crousal2page4">
+      <div>
+        <span
+          style={{
+            fontSize: "56px",
+            fontWeight: "bold",
+            lineHeight: "1",
+          }}
+        >
+          Follow The Bottle
+        </span>
+        <div
+          style={{
+            color: "white",
+            fontWeight: "600",
+            fontSize: "20px",
+            marginTop: "10px",
+            marginBottom: "10px",
+          }}
+        >
+          <TiTickOutline size={25} style={{ marginRight: "10px" }} />
+          True Traceability
         </div>
+        <div
+          style={{
+            color: "white",
+            fontWeight: "600",
+            fontSize: "20px",
+            marginTop: "10px",
+            marginBottom: "10px",
+          }}
+        >
+          <TiTickOutline size={25} style={{ marginRight: "10px" }} />
+          True Traceability
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontWeight: "600",
+            fontSize: "20px",
+            marginTop: "10px",
+            marginBottom: "10px",
+          }}
+        >
+          <TiTickOutline size={25} style={{ marginRight: "10px" }} />
+          True Traceability
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontWeight: "600",
+            fontSize: "20px",
+            marginTop: "10px",
+            marginBottom: "10px",
+          }}
+        >
+          <TiTickOutline size={25} style={{ marginRight: "10px" }} />
+          True Traceability
+        </div>
+        <div
+          style={{
+            color: "white",
+            fontWeight: "600",
+            fontSize: "20px",
+            marginTop: "10px",
+            marginBottom: "10px",
+          }}
+        >
+          <TiTickOutline size={25} style={{ marginRight: "10px" }} />
+          True Traceability
+        </div>
+        <div
+          style={{
+            textAlign: "center",
+            marginLeft: "35px",
+            marginRight: "35px",
+            marginTop: "10px",
+          }}
+        >
+          All of our oils are third party tested to ensure purity, see ourGC/MS
+          reports here.
+        </div>
+        <button
+          className="storybook-button6_crousal"
+          variant="primary"
+          style={{ marginTop: "10px" }}
+        >
+          SOLIESSENTIALS.COM
+        </button>
       </div>
     </div>
   </Carousel>

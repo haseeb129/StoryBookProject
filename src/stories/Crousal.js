@@ -11,7 +11,12 @@ import image2 from "../images/page 1.png";
 import image7 from "../images/Capture7.png";
 
 export const Crousal = () => (
-  <Carousel className="fontclass" showArrows={false} infiniteLoop={true}>
+  <Carousel
+    className="fontclass"
+    showArrows={false}
+    infiniteLoop={true}
+    showThumbs={false}
+  >
     <div className="mainCrousal page1">
       <h1 stytle={{ fontSize: "42px" }}>Safe Use</h1>
       <img src={image5} style={{ width: "35%", marginBottom: "30px" }} />

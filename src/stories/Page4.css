@@ -5,10 +5,10 @@
 
 .pageSize4 {
   font-family: "pill-gothic";
-  min-height: 100vh;
+  min-height: 65vh;
   background-color: #6b8d73;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px;
+  padding-right: 10px; */
   color: white;
 }
 
@@ -29,26 +29,14 @@
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 1;
 }
 .top-right {
   position: absolute;
   top: 8px;
   right: 16px;
 }
-
-/* 
-.imageDiv {
-  background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.png");
-height: 10vh;
-} */
-
-/* 
-.main4 {
-  align-content: center;
-  text-align: center;
-  align-items: center;
-} */
