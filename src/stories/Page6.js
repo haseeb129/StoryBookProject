@@ -7,7 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FiMail, FiInstagram } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
 
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Container } from "react-bootstrap";
 
 import image3 from "../images/c6e3fc38f9022f95d56c7c9bb1886b587cd1156e.png";
 import image4 from "../images/46fcdfed797809f888b54a211cd00c4c0d6ad136.png";
@@ -16,6 +16,9 @@ import image1 from "../images/image1.png";
 import image2 from "../images/page 1.png";
 import image7 from "../images/Capture7.png";
 
+import AudioPlayer from "react-h5-audio-player";
+import "react-h5-audio-player/lib/styles.css";
+import audioFile from "../Audio/file_example_MP3_700KB.mp3";
 export const Page6 = () => (
   <div className="fontclass">
     <div className="main6">
@@ -122,14 +125,25 @@ export const Page6 = () => (
         </div>
       </div>
 
-      <div style={{ backgroundColor: "#3d5b50", minHeight: "100px" }}>
-        <Row>
-          <Col sm={4} xs={4}>
-            <div className="audioDiv">
-              <img src={image2} style={{ width: "100%" }} />
-            </div>
-          </Col>
-        </Row>
+      <div style={{ backgroundColor: "#3d5b50", minHeight: "80px" }}>
+        <Container fluid>
+          <Row>
+            <Col sm={3} xs={3} style={{ padding: "0px" }}>
+              <div className="audioDiv">
+                <img src={image2} style={{ width: "100%", height: "80px" }} />
+              </div>
+            </Col>
+
+            <Col sm={9} xs={9} style={{ padding: "0px" }}>
+              <AudioPlayer
+                autoPlay
+                src={audioFile}
+                onPlay={(e) => console.log("onPlay")}
+                style={{ backgroundColor: "#2c4c3c", color: "white" }}
+              />
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
 

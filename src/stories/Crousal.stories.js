@@ -1,16 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import { Page3 } from "./Page3";
+import { Crousal } from "./Crousal";
 
 export default {
-  title: "Example/Page3",
-  component: Page3,
+  title: "Example/Crousal",
+  component: Crousal,
   argTypes: {
     backgroundColor: { control: "color" },
   },
 };
 
-const Template = (args) => <Page3 {...args} />;
+const Template = (args) => <Crousal {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {

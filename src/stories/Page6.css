@@ -83,6 +83,7 @@
   background-color: white;
   border-radius: 40px;
   text-align: center;
+  border: none;
   padding-top: 10px;
   padding-bottom: 10px;
   border-color: white;
@@ -133,7 +134,7 @@
   /* width: 20%; */
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100px;
+  height: 100%;
 }
 
 .innnerdiv6_3 {
@@ -180,3 +181,21 @@
   margin-bottom: 0;
   border-radius: 20px;
 }
+
+.rhap_time {
+  color: white !important;
+}
+.rhap_container {
+  color: white !important;
+}
+.svg {
+  color: white !important;
+}
+
+.rhap_container svg {
+  color: white !important;
+}
+
+/* .rhap_repeat-button {
+  display: none !important;
+} */

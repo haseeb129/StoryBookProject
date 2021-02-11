@@ -43,7 +43,8 @@
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-color: "#6b8d73";
+  /* border-color: "#6b8d73"; */
+  border: none;
 }
 
 .storybook-button {
