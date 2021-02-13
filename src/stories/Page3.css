@@ -69,7 +69,6 @@
 
 .page3div2 {
   background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/fe0ac09c80490c55e346aa02c537600dac723d2d.png");
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50vh;
@@ -90,5 +89,5 @@
   align-items: center;
   align-content: center;
   text-align: center;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }

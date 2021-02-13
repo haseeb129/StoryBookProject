@@ -7,8 +7,6 @@
   font-family: "pill-gothic";
 }
 .mainCrousal {
-  /* background-color: brown; */
-
   text-align: center;
   align-content: center;
   align-items: center;
@@ -29,11 +27,6 @@
   background-color: #6b8d73 !important;
 }
 
-.selected {
-  /* background-color: #5a7d62 !important; */
-  /* min-height: 70vh; */
-}
-
 .page1 {
   background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/bad7b35df067bac718255a3b78727c5fa977225c.png");
   background-repeat: no-repeat;
@@ -41,7 +34,6 @@
 }
 
 .storybook-button6_crousal {
-  /* margin-top: 50px; */
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 40px;

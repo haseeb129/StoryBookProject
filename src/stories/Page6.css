@@ -7,7 +7,6 @@
   font-family: "pill-gothic";
 }
 .main6 {
-  /* min-height: 50vh; */
   text-align: center;
   align-items: center;
   background-color: black;
@@ -45,7 +44,6 @@
 }
 
 .pageSizeDiv2 {
-  /* min-height: 100vh; */
   background-color: #6b8d73;
   padding-top: 60px;
   align-items: center;
@@ -55,8 +53,6 @@
 }
 
 .imageDiv6 {
-  /* margin-top: 60px;
-  margin-bottom: 60px; */
   background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/efd31d99578da3e3d070b1038625a273fb769a0c.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,11 +66,6 @@
   align-items: center;
   margin-bottom: 60px;
   padding-bottom: 25px;
-  /* margin-top: 60px;
-    margin-bottom: 60px;
-    border-radius: 30px;
-    background-color: #5a7d62;
-    color: white; */
 }
 
 .input6 {
@@ -105,13 +96,11 @@
 }
 
 .storybook-button6_2 {
-  /* margin-top: 15px; */
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 25px;
   padding-left: 25px;
   margin-left: 10px;
-  /* font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-weight: 700;
   border: 0;
   border-radius: 3em;

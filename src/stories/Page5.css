@@ -30,6 +30,9 @@
   margin-bottom: 60px;
   /* padding: 40px; */
 }
+.slide {
+  background-color: #6b8d73 !important;
+}
 
 .pageSize5Div2 {
   background-color: #6b8d73;
@@ -41,8 +44,6 @@
 }
 
 .imageDiv2_5 {
-  /* margin-top: 60px;
-  margin-bottom: 60px; */
   background-image: url("C:/Users/hasee/Desktop/reactstorybook/src/images/c5984bc07b9264ee5565163d69da584896232dca.png");
   background-repeat: no-repeat;
   background-size: cover;
