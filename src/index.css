@@ -17,3 +17,12 @@ code {
     url("./fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
   font-weight: normal;
 }
+
+@font-face {
+  font-family: "pill-gothic";
+  src: url("../Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
+}
+
+.slide {
+  background-color: #6b8d73 !important;
+}

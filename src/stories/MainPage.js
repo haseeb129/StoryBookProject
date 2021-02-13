@@ -34,8 +34,8 @@ const GlobalStyles = createGlobalStyle`
 `;
 const Main2 = styled.div`
   @font-face {
-    font-family: "pill-gothic";
-    src: url(${fontFile}) format("truetype");
+    font-family: pill-gothic;
+    src: url("../Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
   }
 
   font-family: pill-gothic;
@@ -93,10 +93,9 @@ export const MainPage = () => {
         </Innerdiv>
       </Main>
       <Main2>
-        <GlobalStyles>
-          <h2>Subscribe & Learn</h2>
-          <h2>All About Essential Oils</h2>
-        </GlobalStyles>
+        <h2>Subscribe & Learn</h2>
+        <h2>All About Essential Oils</h2>
+
         <P1>Be the first to know about new </P1>
 
         <P2>products & special offers!</P2>

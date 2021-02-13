@@ -9,15 +9,55 @@ import image5 from "../images/Capture5.png";
 import image1 from "../images/image1.png";
 import image2 from "../images/page 1.png";
 import image7 from "../images/Capture7.png";
+import image8 from "../images/bad7b35df067bac718255a3b78727c5fa977225c.png";
+import styled from "styled-components";
+
+const MainCrousal = styled.div`
+  // background-color: #6b8d73 !important;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 30px;
+  height: 75vh;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  background-image: url(${image8});
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
+
+const Storybook_button6_crousal = styled.button`
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-left: 40px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  color: white;
+  background-color: #ef8e48;
+`;
 
 export const Crousal = () => (
   <Carousel
-    className="fontclass"
+    style={{ backgroundColor: "yellow" }}
     showArrows={false}
     infiniteLoop={true}
     showThumbs={false}
   >
-    <div className="mainCrousal page1">
+    <MainCrousal>
       <h1 stytle={{ fontSize: "42px" }}>Safe Use</h1>
       <img src={image5} style={{ width: "35%", marginBottom: "30px" }} />
       <br />
@@ -42,12 +82,10 @@ export const Crousal = () => (
         environmental impact is.
         <br />
       </p>
-      <button className="storybook-button6_crousal" variant="primary">
-        LEARN MORE >
-      </button>
-    </div>
+      <Storybook_button6_crousal>LEARN MORE ></Storybook_button6_crousal>
+    </MainCrousal>
 
-    <div className="mainCrousal page1">
+    <MainCrousal>
       <h1 stytle={{ fontSize: "42px" }}>Safe Use</h1>
       <img src={image5} style={{ width: "35%", marginBottom: "30px" }} />
       <br />
@@ -72,11 +110,9 @@ export const Crousal = () => (
         environmental impact is.
         <br />
       </p>
-      <button className="storybook-button6_crousal" variant="primary">
-        LEARN MORE >
-      </button>
-    </div>
-    <div className="mainCrousal page1">
+      <Storybook_button6_crousal>LEARN MORE ></Storybook_button6_crousal>
+    </MainCrousal>
+    <MainCrousal>
       <h1 stytle={{ fontSize: "42px" }}>Safe Use</h1>
       <img src={image5} style={{ width: "35%", marginBottom: "30px" }} />
       <br />
@@ -101,9 +137,7 @@ export const Crousal = () => (
         environmental impact is.
         <br />
       </p>
-      <button className="storybook-button6_crousal" variant="primary">
-        LEARN MORE >
-      </button>
-    </div>
+      <Storybook_button6_crousal>LEARN MORE ></Storybook_button6_crousal>
+    </MainCrousal>
   </Carousel>
 );

@@ -1,13 +1,18 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import GlobalStyle from "./globalStyles";
+
 function App() {
   return (
-    <div className="pageSize">
-      <div className="main">
-        <h1>aasasa</h1>
+    <Fragment>
+      <GlobalStyle />
+      <div className="pageSize">
+        <div className="main">
+          <h1>aasasa</h1>
+        </div>
       </div>
-    </div>
+    </Fragment>
   );
 }
 
