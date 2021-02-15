@@ -1,11 +1,11 @@
 import React from "react";
-import image1 from "../images/image1.png";
+import image1 from "../images/image1.jpg";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 import fontFile from "../Fonts/Pill Gothic 300mg Bold.ttf";
 // import "./MainPage.css";
-import backgroundImage from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.png";
+import backgroundImage from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.jpg";
 const PageSize = styled.div`
   min-height: 100vh;
   font-family: "pill-gothic";
@@ -73,7 +73,7 @@ const Storybook_button = styled.button`
   padding-bottom: 15px;
   padding-right: 40px;
   padding-left: 40px;
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;

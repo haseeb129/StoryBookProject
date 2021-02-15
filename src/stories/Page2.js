@@ -1,19 +1,14 @@
 import React from "react";
-import image2 from "../images/image2.png";
+import image2 from "../images/image2.jpg";
 // import "./Page2.css";
 import { Row, Col } from "react-bootstrap";
 
 // import { Container, Row, Col } from "styled-bootstrap-grid";
-import image3 from "../images/28e14bac811214045b5a82a171894e78e1ab6496.png";
-import image4 from "../images/93b8e4a0296a80ba74440cdfa983a5d83190ad1b.png";
-import image5 from "../images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.png";
-import tempIcon from "../images/temIcon.png";
+import image3 from "../images/28e14bac811214045b5a82a171894e78e1ab6496.jpg";
+import image4 from "../images/93b8e4a0296a80ba74440cdfa983a5d83190ad1b.jpg";
+import image5 from "../images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.jpg";
+import tempIcon from "../images/temIcon.jpg";
 import styled from "styled-components";
-
-const pageSize = styled.div`
-  min-height: 100vh;
-  font-family: "pill-gothic";
-`;
 
 const Main = styled.div`
   min-height: 100vh;
@@ -169,21 +164,29 @@ export const Page2 = () => (
           Clarifying
         </Col>
       </Row>
-      <div className="row">
-        <div className="col-4">
-          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
-          Clarifying
-        </div>
-        <div className="col-4">
-          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
-          Clarifying
-        </div>
-        <div className="col-4">
-          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
-          Clarifying
-        </div>
-      </div>
 
+      <Row
+        style={{
+          marginTop: "50px",
+          marginBottom: "50px",
+          textAlign: "center",
+          color: "white",
+        }}
+      >
+        <Col xs={4} sm={4}>
+          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
+          Clarifying
+        </Col>
+        <Col xs={4} sm={4}>
+          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
+          Clarifying
+        </Col>
+
+        <Col xs={4} sm={4}>
+          <img src={tempIcon} style={{ width: "40%", marginBottom: "10px" }} />
+          Clarifying
+        </Col>
+      </Row>
       <Row
         style={{
           marginTop: "50px",

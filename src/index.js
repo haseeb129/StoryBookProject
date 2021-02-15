@@ -1,9 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+// import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import "./Fonts/Pill Gothic 300mg Bold";
+// import "./Fonts/Pill Gothic 300mg Bold";
+// import "./styles/global.scss";
+import "./app.scss";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

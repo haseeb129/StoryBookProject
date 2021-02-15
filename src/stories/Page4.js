@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel, { Crousal } from "./Crousal";
 
-import image3 from "../images/ebd74b60c4600aba8ea65fd29f684bc3052e79b4.png";
+import image3 from "../images/ebd74b60c4600aba8ea65fd29f684bc3052e79b4.jpg";
 
 import styled from "styled-components";
 

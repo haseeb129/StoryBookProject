@@ -8,11 +8,11 @@ import { Row, Col } from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-import image6 from "../images/c5984bc07b9264ee5565163d69da584896232dca.png";
+import image6 from "../images/c5984bc07b9264ee5565163d69da584896232dca.jpg";
 
-import image3 from "../images/c6e3fc38f9022f95d56c7c9bb1886b587cd1156e.png";
-import image4 from "../images/46fcdfed797809f888b54a211cd00c4c0d6ad136.png";
-import image5 from "../images/Capture5.png";
+import image3 from "../images/c6e3fc38f9022f95d56c7c9bb1886b587cd1156e.jpg";
+import image4 from "../images/46fcdfed797809f888b54a211cd00c4c0d6ad136.jpg";
+import image5 from "../images/Capture5.jpg";
 
 import styled from "styled-components";
 

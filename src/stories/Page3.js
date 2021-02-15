@@ -1,17 +1,13 @@
 import React from "react";
 import { FaArrowsAltH } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
-import image3 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.png";
-import image4 from "../images/Capture4.png";
-import image5 from "../images/Capture5.png";
-import image6 from "../images/fe0ac09c80490c55e346aa02c537600dac723d2d.png";
+import image3 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.jpg";
+import image4 from "../images/Capture4.jpg";
+import image5 from "../images/Capture5.jpg";
+import image6 from "../images/fe0ac09c80490c55e346aa02c537600dac723d2d.jpg";
 import styled from "styled-components";
 
 const PageSize = styled.div`
-  @font-face {
-    font-family: "pill-gothic";
-    src: url("../Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
-  }
   min-height: 100vh;
   background-color: #6b8d73;
   padding-left: 10px;

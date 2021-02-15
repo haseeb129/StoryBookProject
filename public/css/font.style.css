@@ -1,0 +1,10 @@
+@import "../font/PillGothic300mgBold.ttf";
+
+@font-face {
+  font-family: "pill-gothic";
+  src: url("../font/PillGothic300mgBold.ttf") format("truetype");
+}
+
+body {
+  font-family: "pill-gothic";
+}

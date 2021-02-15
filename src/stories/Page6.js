@@ -3,28 +3,50 @@ import { FaFacebook } from "react-icons/fa";
 import { FiMail, FiInstagram } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
 import { Row, Col, Container } from "react-bootstrap";
-import image1 from "../images/image1.png";
-import image2 from "../images/page 1.png";
-import image7 from "../images/Capture7.png";
-import image8 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.png";
+import image1 from "../images/image1.jpg";
+import image2 from "../images/page 1.jpg";
+import image7 from "../images/Capture7.jpg";
+import image8 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.jpg";
 
-import image9 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.png";
+import image9 from "../images/efd31d99578da3e3d070b1038625a273fb769a0c.jpg";
 
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 import audioFile from "../Audio/file_example_MP3_700KB.mp3";
 import styled from "styled-components";
 
+const AudioWrapper = styled.div`
+  padding: 0;
+  margin: 0;
+  .rhap_time {
+    color: white !important;
+  }
+  .rhap_container {
+    color: white !important;
+  }
+  .svg {
+    color: white !important;
+  }
+
+  .rhap_container svg {
+    color: white !important;
+  }
+
+  font-family: "pill-gothic";
+`;
+
 const Main6 = styled.div`
   text-align: center;
   align-items: center;
   background-color: black;
+  font-family: "pill-gothic";
 `;
 
 const Innerdiv6 = styled.div`
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-family: "pill-gothic";
 `;
 const Innerdiv6_2 = styled.div`
   background-color: white;
@@ -33,6 +55,7 @@ const Innerdiv6_2 = styled.div`
   padding-bottom: 50px;
   text-align: center;
   align-items: center;
+  font-family: "pill-gothic";
 `;
 const Storybook_button6 = styled.div`
   margin-top: 15px;
@@ -40,7 +63,7 @@ const Storybook_button6 = styled.div`
   padding-bottom: 15px;
   padding-right: 40px;
   padding-left: 40px;
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
   border-radius: 3em;
@@ -49,6 +72,7 @@ const Storybook_button6 = styled.div`
   line-height: 1;
   color: white;
   background-color: #ef8e48;
+  font-family: "pill-gothic";
 `;
 const PageSizeDiv2 = styled.div`
   background-color: #6b8d73;
@@ -57,6 +81,7 @@ const PageSizeDiv2 = styled.div`
   align-content: center;
   text-align: center;
   color: white;
+  font-family: "pill-gothic";
 `;
 const ImageDiv6 = styled.div`
   background-image: url(${image8});
@@ -72,6 +97,7 @@ const ImageDiv6 = styled.div`
   align-items: center;
   margin-bottom: 60px;
   padding-bottom: 25px;
+  font-family: "pill-gothic";
 `;
 const Input6 = styled.input`
   height: 8%;
@@ -82,6 +108,7 @@ const Input6 = styled.input`
   padding-top: 10px;
   padding-bottom: 10px;
   border-color: white;
+  font-family: "pill-gothic";
 `;
 const DivinputField = styled.div`
   margin-right: 4%;
@@ -95,6 +122,7 @@ const DivinputField = styled.div`
   padding-top: 5px;
   padding-bottom: 5px;
   border-color: "#6b8d73";
+  font-family: "pill-gothic";
 `;
 const Storybook_button6_2 = styled.div`
   padding-top: 8px;
@@ -110,6 +138,7 @@ const Storybook_button6_2 = styled.div`
   line-height: 1;
   color: white;
   background-color: #ef8e48;
+  font-family: "pill-gothic";
 `;
 
 const Page6div2Starting = styled.div`
@@ -117,6 +146,7 @@ const Page6div2Starting = styled.div`
   background-color: #6b8d73;
   border-radius: 0 0 30px 30px;
   min-height: 8vh;
+  font-family: "pill-gothic";
 `;
 
 const AudioDiv = styled.div`
@@ -124,12 +154,14 @@ const AudioDiv = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  font-family: "pill-gothic";
 `;
 
 const Innnerdiv6_3 = styled.div`
   background-color: #6b8d73;
   padding-top: 40px;
   padding-bottom: 25px;
+  font-family: "pill-gothic";
 `;
 
 const Innnerdiv6_3_1 = styled.div`
@@ -142,6 +174,7 @@ const Innnerdiv6_3_1 = styled.div`
   text-align: center;
   align-content: center;
   align-items: center;
+  font-family: "pill-gothic";
 `;
 
 const Innnerdiv6_3_1_pinkBackground = styled.div`
@@ -151,12 +184,14 @@ const Innnerdiv6_3_1_pinkBackground = styled.div`
   margin-right: 25px;
   margin-bottom: 50px;
   border-radius: 30px;
+  font-family: "pill-gothic";
 `;
 
 const Crossdiv = styled.div`
   text-align: right;
   margin-right: 10px;
   margin-bottom: 25px;
+  font-family: "pill-gothic";
 `;
 
 const Downdiv = styled.div`
@@ -169,6 +204,7 @@ const Downdiv = styled.div`
   margin: 25px;
   margin-bottom: 0;
   border-radius: 20px;
+  font-family: "pill-gothic";
 `;
 
 export const Page6 = () => (
@@ -278,12 +314,14 @@ export const Page6 = () => (
             </Col>
 
             <Col sm={9} xs={9} style={{ padding: "0px" }}>
-              <AudioPlayer
-                autoPlay={false}
-                src={audioFile}
-                onPlay={(e) => console.log("onPlay")}
-                style={{ backgroundColor: "#2c4c3c", color: "white" }}
-              />
+              <AudioWrapper>
+                <AudioPlayer
+                  autoPlay={false}
+                  src={audioFile}
+                  onPlay={(e) => console.log("onPlay")}
+                  style={{ backgroundColor: "#2c4c3c", color: "white" }}
+                />
+              </AudioWrapper>
             </Col>
           </Row>
         </Container>

@@ -1,28 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
 @font-face {
   font-family: "Pill Gothic 300mg Bold";
   src: local("Pill Gothic 300mg Bold"),
     url("./fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
   font-weight: normal;
 }
-
 @font-face {
   font-family: "pill-gothic";
-  src: url("../Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
+  src: url("../src/Fonts/Pill Gothic 300mg Bold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  /* font-family: "pill-gothic"; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.slide {
-  background-color: #6b8d73 !important;
+p {
+  font-family: "pill-gothic";
 }
