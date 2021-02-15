@@ -219,7 +219,7 @@ export const Page6 = () => (
       <h2 style={{ color: "#ef8e48" }}>
         Experience the
         <br />
-        Soli di!erence
+        Soli difference
       </h2>
 
       <div

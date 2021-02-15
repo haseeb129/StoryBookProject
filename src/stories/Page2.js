@@ -1,9 +1,6 @@
 import React from "react";
 import image2 from "../images/image2.jpg";
-// import "./Page2.css";
 import { Row, Col } from "react-bootstrap";
-
-// import { Container, Row, Col } from "styled-bootstrap-grid";
 import image3 from "../images/28e14bac811214045b5a82a171894e78e1ab6496.jpg";
 import image4 from "../images/93b8e4a0296a80ba74440cdfa983a5d83190ad1b.jpg";
 import image5 from "../images/3f13c0ef880fa3321a04bf56fa6210f93a391f1f.jpg";
